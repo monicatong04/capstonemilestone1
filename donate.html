@@ -87,10 +87,10 @@
                 <span class="anchor" id="formPayment"></span>
                 
 
-                <!-- card payment -->
+                <!-- Card payment -->
                 <div class="needs-validation" action="results.html" method="get">
                     <div class="card-body">
-                        <h3 class="text-center">Credit Card Payment</h3>
+                        <h3 class="text-center">Credit or Debit Card Payment</h3>
                         <hr>
                         <div class="alert alert-info p-2">
                             <a class="close font-weight-normal initialism" data-dismiss="alert" href="#"></a> 
@@ -98,8 +98,8 @@
                         </div>
                         <form class="form" role="form" autocomplete="off">
                             <div class="form-group">
-                                <label for="cc_name">Display name</label>
-                                <input type="text" class="form-control" id="cc_name" name="name" pattern="\w+ \w+.*" title="First and last name" required="required">
+                                <input type="checkbox" id="appear" name="appear" value="anonymous">
+                                <label for="appear"> Appear anonymous on results page</label><br>
                             </div>
                             <div class="form-group">
                                 <label for="cc_name">Card Holder's Name</label>
